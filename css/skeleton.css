@@ -32,7 +32,7 @@
   position: relative;
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 0 20px;
   box-sizing: border-box; }
 .column,
@@ -121,11 +121,11 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Work Sans', "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font-family:  'Work Sans', 'Source Code Pro', 'Georgia',"Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff; }
 
 
 /* Typography
@@ -152,17 +152,45 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+font-family: 'Source Code Pro';}
 
+.authorname {
+     font-weight: 600;
+          font-size: 3.2rem;
+          letter-spacing: -.10rem;
+          margin-top:.2em;
+          margin-bottom:.3em;
+     }
+.tagline {
+     font-style: italic;
+     font-weight: 600;
+     font-size: 2.4rem;
+     letter-spacing: -.066rem;
+     margin-bottom:4.4rem
+
+}
+.contenttitle {font-weight: 600;
+     font-size: 3.2rem;
+     line-height: 1.75;
+     letter-spacing: -.10rem;}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: tomato;
-text-decoration:none   }
-a:hover {
-  color: #0FA0CE; }
+  a {
+    color: #e6c300;
+  text-decoration:none   }
+  a:hover {
+       color: #d6d6d6;
+  font-style:italic;}
+  a:active {
+      font-style:italic;
+  }
 
+  .currentpage {
+       color: #d6d6d6;
+       font-style:italic;
+ }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -173,10 +201,10 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   height: 38px;
-  padding: 0 30px;
-  color: #555;
+  padding: 0 110px;
+  color: #ff;
   text-align: center;
-  font-size: 11px;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -184,10 +212,11 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius:8px;
   border: 1px solid #bbb;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+font-family:inherit; }
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -198,7 +227,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
+  color: #e6c300;
   border-color: #888;
   outline: 0; }
 .button.button-primary,
@@ -235,6 +264,8 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
+     color:black;
+  display:block;
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
@@ -255,9 +286,9 @@ textarea {
      -moz-appearance: none;
           appearance: none; }
 textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
+           min-height: 200px;
+           padding-top: 6px;
+           padding-bottom: 6px; }
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -393,27 +424,59 @@ hr {
   clear: both; }
 
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
+  /*My addons */
+
+  /*Custom List title */
+
+ .mylinks {list-style:none;}
+
+ .mylinks li {font-family: 'source code pro'; line-height: 1.6rem}
+
+ .leftsection {padding-right:05rem;
+ text-align:left;}
+
+.mydivider {border-top: 2px solid #fff;}
+
+ /* Media Queries */
+ /*
+ Note: The best way to structure the use of media queries is to create the queries
+ near the relevant code. For example, if you wanted to change the styles for buttons
+ on small devices, paste the mobile query code up in the buttons section and style it
+ there.
+ */
 
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
+ /* Larger than mobile */
+ @media (min-width: 400px) {}
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+ /* Larger than phablet (also point when grid becomes active) */
+ @media (min-width: 550px) {
+      .mydivider {display: none;}
+      .leftsection {padding-right:05rem;
+      text-align:right;}
+      .rightsection{border-left: 2px solid #fff;}
+ .spacewrapper {padding-left:05rem;}
+ }
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
+ /* Larger than tablet */
+ @media (min-width: 750px) {}
 
-/* Larger than desktop */
-@media (min-width: 1000px) {}
+ /* Larger than desktop */
+ @media (min-width: 1000px) {}
 
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+ /* Larger than Desktop HD */
+ @media (min-width: 1200px) {}
+
+      .fix{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    z-index:1;
+    ;
+}
+
+.container {z-index:2;}
+html {background-color:#1970dc;}
+
+.fictionlinks {list-style-type:none;}
+.fictionlinks a {color:#e6c300;}
