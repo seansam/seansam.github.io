@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400|Work+Sans:400,500,600" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -43,33 +43,48 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-third column" style="margin-top: 5%">
-        <p>Sean Sam / Writer</p>
-		<ul style="list-style:none;">
+         <div class="one-third column" style="margin-top: 5%">
+             <div class="leftsection">
+           <h1 class="authorname">Sean Sam</h1>
+           <h2 class="tagline">Writer</h2>
+         <ul class="mylinks">
 
-		<li><a href="index">About</a></li>
-		<li><a href="fiction">Fiction</a></li>
-		<li>Contact</li>
-		</ul>
-      </div>
+        <li><a href="index">About</a></li>
+         <li><a href="fiction">Fiction</a></li>
+         <li class="currentpage"><a href="contact">Contact</a></li>
+         </ul>
+             <hr class="mydivider">
+        </div>
+        </div>
 
-	  <div class="two-thirds column animated fadeIn" style="margin-top: 5%">
+        <div class="two-thirds column" style="margin-top: 5%">
+            <div class="rightsection">
+                  <div class="spacewrapper animated fadeIn">
        				<!-- Contact -->
-<p>Email Sean Sam at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;
-&#115;&#115;&#97;&#109;&#64;&#115;&#101;&#97;&#110;&#115;&#97;&#109;&#46;&#99;&#111;&#109;">
-&#115;&#115;&#97;&#109;&#64;&#115;&#101;&#97;&#110;&#115;&#97;&#109;&#46;&#99;&#111;&#109;</a>
-</p>
 
 
-					</div>
+<form id="contactform" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
+    <input type="hidden" name="_next" value="//seansam.com/thanks.html" />
+</form>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'ssam' + '@' + 'seansam' + '.' + 'com');
+</script>
 
-      </div>
-
-
-    </div>
-  </div>
+                         </div>
+                         </div>
+                              </div>
+                         </div>
+                         </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <img src="images/background.png" class="fix"/>
 </body>
 </html>
