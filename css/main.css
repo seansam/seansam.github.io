@@ -78,6 +78,10 @@ Nav Bar Burger Expansion
 .navbar-burger.is-active span:nth-child(3) {
    transform: translateY(-7.5px) rotate(-45deg); }
 
+   .top-nav {
+     margin-top:-2rem;
+   }
+
 /* ==========================================================================
     Links
    ========================================================================== */
