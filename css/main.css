@@ -10,7 +10,19 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
+
+/* use Gentium Plus - Regular in .woff format */
+@font-face {
+  font-family: GentiumPlusW;
+  src: url(fonts/GentiumPlus-R.woff);
+}
+/* use Gentium Plus - Italic in .woff format */
+@font-face {
+  font-family: GentiumPlusW;
+  font-style: italic;
+  src: url(fonts/GentiumPlus-I.woff);
+}
 
 @font-face {
     font-family: 'garamondno8';
@@ -48,8 +60,8 @@
 
 html {
   color: #222;
-  font-size: 130%;
-  line-height: 1.4;
+  font-size: 133%;
+
 }
 
 /*
@@ -148,7 +160,7 @@ h1, h2, h3, h4, h5 ,h6 {
   font-family:  'Josefin Sans', sans-serif;
 }
 p, ul {
-      font-family:  'garamondno8', serif;
+      font-family:  'garamondno8', GentiumPlusW, sans-serif;
 }
 .right {
   text-align: right;
@@ -227,13 +239,17 @@ a.twitter-link:hover {
 hr {
   border-top:3px solid black;
 }
-a.active {
-  text-decoration: none;
-  font-style: italic;
+.stanza {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
 }
-.content {
-  padding-bottom:3rem;
+.poemline {
+  text-indent: -1rem;
 }
+p.poemline {
+  margin-bottom: 0rem;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -336,7 +352,7 @@ a.active {
 
 @media (max-width:600px)  {
   .spacer {
-    margin-top:1rem;
+    margin-top:2rem;
   }
   .content {
     text-align:left;
