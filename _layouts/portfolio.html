@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+{% include head-portfolio.html %}
+</head>
+<body>
+            {{content}}
+
+      <footer class="section">
+          <div class="container">
+            <div class="columns is-centered">
+              <div class="column is-four-fifths content">
+                <hr>
+
+              </div>
+              </div>
+              </div>
+    </footer>
+      <script src="{{ '/assets/js/vendor/modernizr-3.6.0.min.js' | prepend: site.baseurl }}"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="{{ '/assets/js/vendor/jquery-3.3.1.min.js' | prepend: site.baseurl }}"><\/script>')</script>
+      <script src="{{ '/assets/js/plugins.js' | prepend: site.baseurl }}"></script>
+        <script src="{{ '/assets/js/simpleLightbox.min.js' | prepend: site.baseurl }}"></script>
+
+      <script>
+        $('.overlay-image a').simpleLightbox();
+      </script>
+                <link rel="stylesheet" href="{{ '/assets/css/app.css' | prepend: site.baseurl }}">
+</body>
+</html>

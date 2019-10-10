@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+
+<div class="body-border color-1-border">
+</div>
+<div class="color-1-background" style="width:100%">
+</div>
+
+  <div id="page">
+  <div class="spacer">
+    </div>
+    <div class="container grid-lg padding">
+        <div class="columns">
+          <div class="column col-3 col-sm-12 brand">
+                      <h1>Sean Sam</h1>
+          </div>
+          <div class="column col-9">
+          </div>
+        </div>
+
+        <div class="columns">
+            {% include nav.html %}
+            {{content}}
+        </div>
+    </div>
+  </div>
+    {% include google-analytics.html %}
+<link rel="stylesheet" href="{{ '/assets/css/app.css' | prepend: site.baseurl }}">
+</body>
+</html>
