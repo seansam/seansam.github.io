@@ -9,6 +9,7 @@ height: 731
           <div class="wrapper">
             <p><strong>Selected Fiction &amp; Poetry</strong></p>
             <ul class="fictionlinks">
+              <li><a href="https://deracinemagazine.com/issues/" target="_blank"><em>Déraciné</em></a> - Volume V - "The Sea"</li>
               <li><em>Potomac Review</em> - Issue 61 - "Another Morning"</li>
               <li><a href="{{ '/pigeon-near-seti-telescope-array/' | prepend: site.baseurl }}"><em>RED Ink</em> - Issue 18.2 - "Pigeon Near Seti Telescope Array"</a></li>
               <li><em>RED Ink</em> - Issue 18.2 - "Tham Piu Cave"</li>
