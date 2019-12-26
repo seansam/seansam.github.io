@@ -10,7 +10,7 @@ height: 731
 <p style="text-decoration:underline;"><strong>Selected Work</strong></p>
 <p><strong>Fiction</strong></p>
             <ul class="fictionlinks">
-              <li>The Sea - <a href="https://deracinemagazine.com/issues/" target="_blank"><em>Déraciné (Vol 5)</em></a></li>
+              <li><a href="https://deracinemagazine.com/issues/" target="_blank">The Sea</a> - <em>Déraciné (Vol 5)</em></li>
               <li>The Tunnel - <em>99 Pine Street</em></li>
               <li>The Other Visitor - <em>The Corner Club Press</em></li>
             </ul>
@@ -23,7 +23,7 @@ height: 731
             <p><strong>Poetry</strong></p>
             <ul class="fictionlinks">
               <li>Another Morning - <em>Potomac Review</em></li>
-              <li>Pigeon Near Seti Telescope Array - <a href="{{ '/pigeon-near-seti-telescope-array/' | prepend: site.baseurl }}"><em>RED Ink</em></a></li>
+              <li><a href="{{ '/pigeon-near-seti-telescope-array/' | prepend: site.baseurl }}">Pigeon Near Seti Telescope Array</a> - <em>RED Ink</em></li>
               <li>Tham Piu Cave - <em>RED Ink</em></li>
               <li><a href="{{ '/life-creating-a-jumper/' | prepend: site.baseurl }}">Life Creating a Jumper</a> - <em>Bird's Thumb</em></li>
               <li><a href="{{ '/1915-poem/' | prepend: site.baseurl }}">1915</a> - <em>Two Cities Review</em></li>
