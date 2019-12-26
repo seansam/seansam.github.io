@@ -7,22 +7,37 @@ height: 731
 ---
 <div class="column col-8 col-sm-12 content animated fadeIn">
           <div class="wrapper">
-            <p><strong>Selected Fiction &amp; Poetry</strong></p>
+<p style="text-decoration:underline;"><strong>Selected Work</strong></p>
+<p><strong>Fiction</strong></p>
             <ul class="fictionlinks">
-              <li><a href="https://deracinemagazine.com/issues/" target="_blank"><em>Déraciné</em></a> - Volume V - "The Sea"</li>
-              <li><em>Potomac Review</em> - Issue 61 - "Another Morning"</li>
-              <li><a href="{{ '/pigeon-near-seti-telescope-array/' | prepend: site.baseurl }}"><em>RED Ink</em> - Issue 18.2 - "Pigeon Near Seti Telescope Array"</a></li>
-              <li><em>RED Ink</em> - Issue 18.2 - "Tham Piu Cave"</li>
-              <li><a href="{{ '/life-creating-a-jumper/' | prepend: site.baseurl }}"><em>Bird's Thumb</em> - Vol. 3, Issue 2 - "Life Creating a Jumper"</a></li>
-              <li><em>99 Pine Street</em> - "The Tunnel"</li>
-              <li><a href="{{ '/1915-poem/' | prepend: site.baseurl }}"><em>Two Cities Review</em>  - Issue 10 - "1915"</a></li>
-              <li><em>East Jasmine Review</em> - Volume 3, Issue 3 - "Coma"</li>
-              <li><em>East Jasmine Review</em> - Volume 3, Issue 3 - "The Object In Art Disappears"</li>
-              <li><em>East Jasmine Review</em> - Volume 3, Issue 3 - "Mitosis"</li>
-              <li><em>The Corner Club Press</em> - Issue 14, Volume 3 - "The Other Visitor"</li>
-              <li><em>ChannelMarker</em> - Vol 9 - "Marty"</li>
+              <li>The Sea - <a href="https://deracinemagazine.com/issues/" target="_blank"><em>Déraciné (Vol 5)</em></a></li>
+              <li>The Tunnel - <em>99 Pine Street</em></li>
+              <li>The Other Visitor - <em>The Corner Club Press</em></li>
+            </ul>
+            <br />
+            <p><strong>Nonfiction</strong></p>
+              <ul class="fictionlinks">
+              <li>Marty - <em>ChannelMarker</em></li>
+            </ul>
+              <br />
+            <p><strong>Poetry</strong></p>
+            <ul class="fictionlinks">
+              <li>Another Morning - <em>Potomac Review</em></li>
+              <li>Pigeon Near Seti Telescope Array - <a href="{{ '/pigeon-near-seti-telescope-array/' | prepend: site.baseurl }}"><em>RED Ink</em></a></li>
+              <li>Tham Piu Cave - <em>RED Ink</em></li>
+              <li><a href="{{ '/life-creating-a-jumper/' | prepend: site.baseurl }}">Life Creating a Jumper</a> - <em>Bird's Thumb</em></li>
+              <li><a href="{{ '/1915-poem/' | prepend: site.baseurl }}">1915</a> - <em>Two Cities Review</em></li>
+              <li>Coma - <em>East Jasmine Review</em></li>
+              <li>The Object In Art Disappears - <em>East Jasmine Review</em></li>
+              <li>Mitosis - <em>East Jasmine Review</em></li>
+            </ul>
+            <br />
+            <p><strong>Conversations</strong></p>
+              <ul class="fictionlinks">
+              <li><a href="http://baltimorewatchdog.com/2019/12/07/towson-students-start-their-own-literary-magazine/" target="_blank">Feature/Interview</a> - <em>Baltimore Watchdog</em></li>
             </ul>
           </div>
-          <div class="spacer">
+          <div class="spacer" style="margin-bottom:6rem;">
           </div>
+
 </div>

@@ -322,23 +322,9 @@ p {
    Words List Styles
    ========================================================================== */
    .fictionlinks {
+     padding-left:1rem;
      list-style: none;
-   }
-   .fictionlinks li {
-     padding-left: 1em;
-     position: relative;
-
-   }
-   .fictionlinks li:after {
-     content: '';
-     height: .3em;
-     width: .3em;
-     background: #111;
-     display: block;
-     position: absolute;
-     transform: rotate(45deg);
-     top: .6em;
-     left: 0;
+     text-indent:-1rem;
    }
 
 
