@@ -10,6 +10,8 @@ height: 731
 		  <h2>Selected Work</h2>
 <p><strong>Fiction and Nonfiction</strong></p>
             <ul class="fictionlinks">
+              <li>Figure Balancing Over Rushing Water — <em>The Malahat Review (Forthcoming)</em></li>
+              <li><a href="https://www.westchesterreview.com/sean-sam" target="_blank">Onely</a> — <em>The Westchester Review</em></li>
               <li><a href="https://salthilljournal.net/salt-hill-4344" target="_blank">Man Who Never Quits</a> — <em>Salt Hill</em></li>
               <li><a href="https://deracinemagazine.com/issues/" target="_blank">The Sea</a> — <em>Déraciné</em></li>
               <li>The Tunnel — <em>99 Pine Street</em></li>
@@ -34,7 +36,7 @@ height: 731
               <ul class="fictionlinks">
               <li><a href="http://baltimorewatchdog.com/2019/12/07/towson-students-start-their-own-literary-magazine/" target="_blank">Feature/Interview</a> — <em>Baltimore Watchdog</em></li>
 			  <li><a href="https://www.ligeiamagazine.com/fall-2020/steve-finbow-interview/" target="_blank">Interview with Steve Finbow</a> — <em>Ligeia</em></li>
-			  <li><a href="https://www.ligeiamagazine.com/summer-2020/benjamin-devos-interview/" target="_blank">Interview with Benjamin DeVos</a> — <em>Ligeia</em></li>			  
+			  <li><a href="https://www.ligeiamagazine.com/summer-2020/benjamin-devos-interview/" target="_blank">Interview with Benjamin DeVos</a> — <em>Ligeia</em></li>
 			  <li><a href="https://www.ligeiamagazine.com/winter-2019/jeannie-vanasco-interview/" target="_blank">Interview with Jeannie Vanasco</a> — <em>Ligeia</em></li>
 			  <li><a href="https://www.ligeiamagazine.com/fall-2019/sophia-shalmiyev-interview/" target="_blank">Interview with Sophia Shalmiyev</a> — <em>Ligeia</em></li>
 			  <li><a href="https://www.ligeiamagazine.com/fall-2019/jake-skeets-interview/" target="_blank">Interview with Jake Skeets</a> — <em>Ligeia</em></li>
