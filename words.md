@@ -11,7 +11,7 @@ height: 731
 <p><strong>Fiction and Nonfiction</strong></p>
             <ul class="fictionlinks">
               <li>Figure Balancing Over Rushing Water — <em>The Malahat Review (Forthcoming)</em></li>
-              <li><a href="https://www.westchesterreview.com/sean-sam" target="_blank">Onely</a> — <em>The Westchester Review</em></li>
+              <li>Onely — <em>The Westchester Review</em></li>
               <li><a href="https://salthilljournal.net/salt-hill-4344" target="_blank">Man Who Never Quits</a> — <em>Salt Hill</em></li>
               <li><a href="https://deracinemagazine.com/issues/" target="_blank">The Sea</a> — <em>Déraciné</em></li>
               <li>The Tunnel — <em>99 Pine Street</em></li>
