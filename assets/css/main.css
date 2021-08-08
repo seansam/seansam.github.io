@@ -10,46 +10,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
 
-@font-face {
-    font-family: 'garamondno8';
-    src: url('fonts/garamondno8-bold-italic-webfont.woff2') format('woff2'),
-         url('fonts/garamondno8-bold-italic-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'garamondno8';
-    src: url('fonts/garamondno8-bold-webfont.woff2') format('woff2'),
-         url('fonts/garamondno8-bold-webfont.woff') format('woff');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'garamondno8';
-    src: url('fonts/garamondno8-italic-webfont.woff2') format('woff2'),
-         url('fonts/garamondno8-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'garamondno8';
-    src: url('fonts/garamondno8-regular-webfont.woff2') format('woff2'),
-         url('fonts/garamondno8-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
 
 html {
   color: #222;
-
-
 }
 
 /*
@@ -137,18 +103,42 @@ textarea {
   list-style-type: none;
   padding: 0rem;
   margin: 0rem;
-  font-family:  'Josefin Sans', sans-serif;
+  font-family:  'Source Sans Pro', sans-serif;
 
 }
 .mymenu li {
   margin-top: .2rem;
 }
-h1, h2, h3, h4, h5 ,h6 {
+
+h1 {
   text-transform: uppercase;
-  font-family:  'Josefin Sans', sans-serif;
+  font-family:  'Work Sans', sans-serif;
+  font-weight: 500;
 }
-p, ul {
-      font-family:  'garamondno8', GentiumPlusW, sans-serif;
+
+.title {
+  margin-bottom: .25rem;
+}
+
+.title a {
+  color: #222;
+}
+
+.title a:hover {
+  text-decoration: none;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+h2, h3, h4, h5 ,h6 {
+  text-transform: uppercase;
+  font-family:  'Source Sans Pro', sans-serif;
+}
+p, ul, .test {
+      font-family:  'Source Sans Pro', sans-serif;
 }
 .right {
   text-align: right;
@@ -181,6 +171,7 @@ p, ul {
     margin-left: 1rem;
     padding: 3rem;
     margin-top:.5em;
+    height:160px;
 }
 .fictionlinks {
   list-style-type: none;
@@ -224,6 +215,11 @@ a.twitter-link:hover {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
+
+.active {
+  font-weight:bold;
+}
+
 
 hr {
   border-top:3px solid black;
@@ -316,6 +312,56 @@ p {
   hyphenate-limit-lines: 2;
   hyphenate-limit-last: always;
   hyphenate-limit-zone: 8%;
+}
+
+
+/* ==========================================================================
+   Button Test
+   ========================================================================== */
+.new__btn {
+      position: relative;
+      padding: .5rem;
+      color: #000;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+       }
+
+a.new__btn:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
+.new__btn:hover:after {
+    -webkit-transform: translate3d(3px,-3px,0);
+    transform: translate3d(3px,-3px,0);
+}
+
+.new__btn:hover:before {
+    -webkit-transform: translate3d(-3px,3px,0);
+    transform: translate3d(-3px,3px,0);
+}
+
+
+.new__btn:hover:after, .new__btn:hover:before {
+    -webkit-transition: -webkit-transform .2s ease-out;
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+}
+
+.new__btn:after, .new__btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #000;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    transition: -webkit-transform .2s ease-in;
+    transition: transform .2s ease-in;
+    transition: transform .2s ease-in,-webkit-transform .2s ease-in;
 }
 
 /* ==========================================================================
