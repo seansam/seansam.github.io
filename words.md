@@ -9,13 +9,11 @@ height: 731
           <div class="wrapper">
           <p><strong>Fiction and Nonfiction</strong></p>
             <ul class="fictionlinks">
-              <li>Figure Balancing Over Rushing Water — <em>The Malahat Review (Forthcoming)</em></li>
-              <li>Onely — <em>The Westchester Review</em></li>
+              <li>The Frontier — <em>Terrain.org</em> (<a href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">winner of Terrain.org's 12th annual fiction contest</a> + <a href="https://www.zoetrope.com/contests/stories-2021/" target="_blank"> honorable mention in Zoetrope: All Story Short Fiction Competition)</a></li>
+              <li><a href="https://web.uvic.ca/malahat/excerpts/sam.html" target="_blank">Figure Balancing Over Rushing Water</a> — <em>The Malahat Review</em></li>
+              <li><a href="https://www.westchesterreview.com/sean-sam" target="_blank">Onely</a> — <em>The Westchester Review</em> (nominated for Best of the Net)</li>
               <li><a href="https://salthilljournal.net/salt-hill-4344" target="_blank">Man Who Never Quits</a> — <em>Salt Hill</em></li>
-              <li><a href="https://deracinemagazine.com/issues/" target="_blank">The Sea</a> — <em>Déraciné</em></li>
-              <li>The Tunnel — <em>99 Pine Street</em></li>
-              <li>The Other Visitor — <em>The Corner Club Press</em></li>
-              <li>Marty — <em>ChannelMarker</em></li>
+              <li>The Sea — <em>Déraciné</em></li>
             </ul>
             <br />
             <p><strong>Poetry</strong></p>
