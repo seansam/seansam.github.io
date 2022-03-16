@@ -9,7 +9,7 @@ height: 731
           <div class="wrapper">
           <p><strong>Fiction and Nonfiction</strong></p>
             <ul class="fictionlinks">
-              <li>The Frontier — <em>Terrain.org</em> (<a href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">winner of Terrain.org's 12th annual fiction contest</a> + <a href="https://www.zoetrope.com/contests/stories-2021/" target="_blank"> honorable mention in Zoetrope: All Story Short Fiction Competition)</a></li>
+              <li><a href="https://www.terrain.org/2022/fiction/the-frontier/" target="_blank">The Frontier</a> — <em>Terrain.org</em> (<a href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">winner of Terrain.org's 12th annual fiction contest</a> + <a href="https://www.zoetrope.com/contests/stories-2021/" target="_blank"> honorable mention in Zoetrope: All Story Short Fiction Competition)</a></li>
               <li><a href="https://web.uvic.ca/malahat/excerpts/sam.html" target="_blank">Figure Balancing Over Rushing Water</a> — <em>The Malahat Review</em></li>
               <li><a href="https://www.westchesterreview.com/sean-sam" target="_blank">Onely</a> — <em>The Westchester Review</em> (nominated for Best of the Net)</li>
               <li><a href="https://salthilljournal.net/salt-hill-4344" target="_blank">Man Who Never Quits</a> — <em>Salt Hill</em></li>
