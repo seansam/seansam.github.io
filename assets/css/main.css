@@ -10,13 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
-
-html {
-  color: #222;
-}
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Work+Sans:ital@0;1&display=swap');
 
 /*
  * Remove text-shadow in selection highlight:
@@ -46,9 +40,10 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
+  border-top: .5x solid rgba(0, 0, 0);
+  margin: .4rem 0;
   padding: 0;
+  opacity: 1;
 }
 
 /*
@@ -85,293 +80,67 @@ textarea {
 }
 
 /* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.mymenu {
-  text-align: right;
-  list-style-type: none;
-  padding: 0rem;
-  margin: 0rem;
-  font-family:  'Source Sans Pro', sans-serif;
 
-}
-.mymenu li {
-  margin-top: .2rem;
+.container {
+  margin-top: 1rem;
 }
 
-h1 {
+.brandname {
+  margin-top: 1rem;
+}
+
+.menubutton {
+  border-top: 1.5px solid #0c0f13!important;
+  border-bottom: 1.5px solid #0c0f13!important;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1)!important;
+}
+
+h2 {
+  font-size: .9rem;
   text-transform: uppercase;
-  font-family:  'Work Sans', sans-serif;
+  padding-bottom: 2rem;
+}
+
+
+.fictionlinks {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Reset links */
+
+a {
+  color: black !important;
+}
+
+/* Reset brand link hover */
+h1 a {
+  color:black;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: black;
+}
+
+/* Fonts all headings */
+
+h1, h2, .nav-link {
+  font-family: 'Montserrat', Courier, monospace;
   font-weight: 500;
 }
 
-.title {
-  margin-bottom: .25rem;
-}
-
-.title a {
-  color: #222;
-}
-
-.title a:hover {
-  text-decoration: none;
-}
-
-.subtitle {
-  font-size: 1rem;
-  font-style: italic;
-}
-
-h2, h3, h4, h5 ,h6 {
-  text-transform: uppercase;
-  font-family:  'Source Sans Pro', sans-serif;
-}
-p, ul, .test {
-      font-family:  'Source Sans Pro', sans-serif;
-}
-.right {
-  text-align: right;
-}
-.custom {
-  padding: 0rem;
-}
-.wrapper {
-  padding-top: .2rem;
-}
-
-.mobile li {
-  display:inline;
-  padding-right:.5rem;
-}
-.mymenu.mobile {
-  text-align:left;
-}
-.spacer {
-   margin-top:2.5rem;
-}
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
-}
-.vertical-line {
-    border-left: 3px solid black;
-    margin-left: 1rem;
-    padding: 3rem;
-    margin-top:.5em;
-    height:160px;
-}
-.fictionlinks {
-  list-style-type: none;
-  margin: 0rem;
-}
-
-ul.fictionlinks > li:nth-child(1) {
-  margin-top:0rem;
-}
-
-a.link:hover {
-  text-decoration: none;
-}
-a.link, a.twitter-link  {
-  color: #3b4351;
-}
-
-a.twitter-link:hover {
-  color: #555;
-}
-
-.link {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  padding: 4px 0;
-}
-.hover-1:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  background-color: #3b4351;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.2s;
-}
-.hover-1:hover:after {
-  transform-origin: bottom left;
-  transform: scaleX(1);
-}
-
-.active {
-  font-weight:bold;
-}
-
-
-hr {
-  border-top:3px solid black;
-}
-.stanza {
-  padding-left: 1rem;
-  margin-bottom: 1rem;
-}
-.poemline {
-  text-indent: -1rem;
-}
-p.poemline {
-  margin-bottom: 0rem;
-}
-
+/* Everything else */
 
 body {
-  font-size: 100%;
-  background-color: #eFF5EE;
+  font-family: 'Work Sans' !important;
 }
-
-#page {
-  font-size: 1em;
-  /* equivalent to 16px */
-  line-height: 1.4em;
-  /* equivalent to 20px */
-  padding: 1rem;
-}
-
-@media (min-width: 43.75em) {
-  #page {
-    font-size: 1.1em;
-    /* equivalent to 16px */
-    line-height: 1.512;
-    /* equivalent to 22px */
-  }
-}
-
-@media (max-width: 1199.98px) {
-  h1,
-  .h1 {
-    font-size: calc(1.375rem + 1.5vw);
-  }
-}
-
-.color-1-border {
-  border: solid #262626;
-}
-.body-border {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-style: solid;
-    border-width: 15px;
-    z-index: 10;
-    pointer-events: none;
-    -webkit-transition: ease background 300ms;
-    -moz-transition: ease background 300ms;
-    -ms-transition: ease background 300ms;
-    transition: ease background 300ms;
-}
-
-p {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -webkit-hyphenate-limit-before: 3;
-  -webkit-hyphenate-limit-after: 3;
-  -webkit-hyphenate-limit-chars: 6 3 3;
-  -webkit-hyphenate-limit-lines: 2;
-  -webkit-hyphenate-limit-last: always;
-  -webkit-hyphenate-limit-zone: 8%;
-
-  -moz-hyphens: auto;
-  -moz-hyphenate-limit-chars: 6 3 3;
-  -moz-hyphenate-limit-lines: 2;
-  -moz-hyphenate-limit-last: always;
-  -moz-hyphenate-limit-zone: 8%;
-
-  -ms-hyphens: auto;
-  -ms-hyphenate-limit-chars: 6 3 3;
-  -ms-hyphenate-limit-lines: 2;
-  -ms-hyphenate-limit-last: always;
-  -ms-hyphenate-limit-zone: 8%;
-
-  hyphens: auto;
-  hyphenate-limit-chars: 6 3 3;
-  hyphenate-limit-lines: 2;
-  hyphenate-limit-last: always;
-  hyphenate-limit-zone: 8%;
-}
-
-
-/* ==========================================================================
-   Button Test
-   ========================================================================== */
-.new__btn {
-      position: relative;
-      padding: .5rem;
-      color: #000;
-      display: inline-block;
-      text-align: center;
-      width: 100%;
-       }
-
-a.new__btn:hover {
-  text-decoration: none;
-  color: #212529;
-}
-
-.new__btn:hover:after {
-    -webkit-transform: translate3d(3px,-3px,0);
-    transform: translate3d(3px,-3px,0);
-}
-
-.new__btn:hover:before {
-    -webkit-transform: translate3d(-3px,3px,0);
-    transform: translate3d(-3px,3px,0);
-}
-
-
-.new__btn:hover:after, .new__btn:hover:before {
-    -webkit-transition: -webkit-transform .2s ease-out;
-    transition: -webkit-transform .2s ease-out;
-    transition: transform .2s ease-out;
-    transition: transform .2s ease-out,-webkit-transform .2s ease-out;
-}
-
-.new__btn:after, .new__btn:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border: 2px solid #000;
-    -webkit-transition: -webkit-transform .2s ease-in;
-    transition: -webkit-transform .2s ease-in;
-    transition: transform .2s ease-in;
-    transition: transform .2s ease-in,-webkit-transform .2s ease-in;
-}
-
-/* ==========================================================================
-   Words List Styles
-   ========================================================================== */
-   .fictionlinks {
-     padding-left:1rem;
-     list-style: none;
-     text-indent:-1rem;
-   }
 
 
 /* ==========================================================================
@@ -382,18 +151,19 @@ a.new__btn:hover {
  * Hide visually and from screen readers
  */
 
-.hidden {
+.hidden,
+[hidden] {
   display: none !important;
 }
 
 /*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
 
 .sr-only {
   border: 0;
@@ -409,10 +179,10 @@ a.new__btn:hover {
 }
 
 /*
-* Extends the .sr-only class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -426,34 +196,32 @@ a.new__btn:hover {
 }
 
 /*
-* Hide visually and from screen readers, but maintain layout
-*/
+ * Hide visually and from screen readers, but maintain layout
+ */
 
 .invisible {
   visibility: hidden;
 }
 
 /*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
 
-.clearfix:before,
-.clearfix:after {
+.clearfix::before,
+.clearfix::after {
   content: " ";
-  /* 1 */
   display: table;
-  /* 2 */
 }
 
-.clearfix:after {
+.clearfix::after {
   clear: both;
 }
 
@@ -463,10 +231,33 @@ a.new__btn:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 767px) {
   /* Style adjustments for viewports that meet the condition */
+  .brandname {
+    text-align: center;
+  }
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1001px) {
+  .dash {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hidebreak {
+    display: none;
+  }
+  .dash {
+    display: inline;
+  }
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
@@ -474,29 +265,47 @@ a.new__btn:hover {
   /* Style adjustments for high resolution devices */
 }
 
-@media (max-width:600px)  {
-  .spacer {
-    margin-top:2rem;
-  }
-  .content {
-    text-align:left;
-    padding-top:1rem;
-  }
-  .padding {
-    padding: 0rem 1rem;
-  }
- }
-@media (min-width:600px) {
-  .brand {
-    text-align: right;
-  }
-  .mobile li {
-    display:block;
-    padding-right:0rem;
-        text-align:right;
-  }
+/* Reset Navbar padding */
 
- }
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0rem !important;
+}
+
+/* Navbar link styles */
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000000;
+    width: 0%;
+    content: "";
+    height: 4px;
+  }
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+  
+  .navbar .navbar-nav .nav-item::after {
+    transition: all 0.25s;
+  }
+}
+
+
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -505,109 +314,70 @@ a.new__btn:hover {
 
 @media print {
   *,
-  *:before,
-  *:after {
-    background: transparent !important;
+  *::before,
+  *::after {
+    background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     text-decoration: underline;
   }
-  a[href]:after {
+
+  a[href]::after {
     content: " (" attr(href) ")";
   }
-  abbr[title]:after {
+
+  abbr[title]::after {
     content: " (" attr(title) ")";
   }
+
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
     content: "";
   }
+
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
   thead {
     display: table-header-group;
   }
+
   tr,
   img {
     page-break-inside: avoid;
   }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
 
-
-/* ==========================================================================
-  Animated
-   ========================================================================== */
-
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@media (print), (prefers-reduced-motion: reduce) {
-  .animated {
-    -webkit-animation-duration: 1ms !important;
-    animation-duration: 1ms !important;
-    -webkit-transition-duration: 1ms !important;
-    transition-duration: 1ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-    animation-iteration-count: 1 !important;
-  }
-}

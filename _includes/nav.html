@@ -1,16 +1,52 @@
-      <div class="column col-3 col-sm-12">
-          <ul class="mymenu mobile">
-            <li class="menu-item {% if page.name == 'index.md' %}active{% endif %}"><a class="link hover-1" href="{{ '/' | prepend: site.baseurl }}">Recent</a></li>
-            <li class="menu-item {% if page.name == 'about.md' %}active{% endif %}"><a class="link hover-1" href="{{ '/about/' | prepend: site.baseurl }}">About</a></li>
-            <li class="menu-item {% if page.name == 'words.md' %}active{% endif %}"><a class="link hover-1" href="{{ '/words/' | prepend: site.baseurl }}">Words</a></li>
-            <li class="menu-item {% if page.name == 'contact.md' %}active{% endif %}"><a class="link hover-1" href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a></li>
-            <!-- <li><a href="https://twitter.com/sean_sam_" target="_blank" class="twitter-link"><i class="fab fa-twitter"></i></a></li> -->
-          </ul>
+        <div class="row">
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h1 class="brandname"><a href="/">SEAN <br> SAM</a></h1>
         </div>
-        <div class="column col-sm-12 show-sm">
-              <hr>
-        </div>
-        <div class="column col-1 right hide-sm">
-          <div class="vertical-line">
+
+
+        <div class="text-center menubutton d-md-none">
+          <div data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button type="button" class="btn btn-menu btn-lg btn-block">
+                <img src="{{ '/assets/img/triangle.jpg' | prepend: site.baseurl }}" alt="MENU">
+            </button>
           </div>
         </div>
+
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+
+            <nav class="navbar navbar-expand-md navbar-light mt-md-4">
+
+              <!-- <a class="navbar-brand text-uppercase brandname" href="/">Sean Sam</a> -->
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav text-center text-uppercase">
+                      <li class="nav-item">
+                          <a class="nav-link" href="/about/">About</a>
+                      </li>
+                      <li class="nav-item mx-5">
+                          <a class="nav-link" href="/words/">Words</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/contact/">Contact</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/jackcarneal" target="_blank"><i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/jackcarneal" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/cdn-cgi/l/email-protection#c8eeebf1f1f3eeebf9f9f9f3eeebf9f9f8f3eeebf9f9fef3eeebf1fff3eeebf1f1f3eeebf9f9fef3eeebfefcf3eeebf9f8fef3eeebf1fff3eeebf1f1f3eeebf9f8fff3eeebf1f1f3eeebf1fff3eeebf9f9fcf3eeebf9f9f8f3eeebf9f8f9f3eeebf1fff3eeebf9f8f0f3eeebfcfef3eeebf1f1f3eeebf9f9f9f3eeebf9f8f1f3" target="_blank"><i class="far fa-envelope"></i></a>
+                      </li> -->
+                  </ul>
+              </div>
+          </nav>
+
+      </div>
+
+    </div>
+
+              
+
