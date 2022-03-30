@@ -15,9 +15,17 @@ height: 731
   <div class="col-lg-8 col-md-8 animated fadeIn">
   <hr>
   <h2>News</h2>
+  <a class="new__btn test" href="https://www.terrain.org/events/reading-march-2022/" target="_blank">Reading with Terrain.org</a>
+  <br>
+  <br>
   <a class="new__btn test" href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">Winner of Terrain's 12th Annual Short Fiction Contest</a>
   <br>
   <br>
+  <a class="new__btn test" href="https://www.ligeiamagazine.com/winter-2021/kim-fu-interview/" target="_blank">Interviewing  Kim Fu</a>
+  <br>
+  <br>
+
+
   <a class="new__btn test" href="https://www.zoetrope.com/contests/stories-2021/" target="_blank">Honorable mention in <em>Zoetrope: All Story</em>'s 2021 Short Fiction Competition</a>
   <br>
   <br>
