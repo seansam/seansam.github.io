@@ -15,6 +15,9 @@ height: 731
   <div class="col-lg-8 col-md-8 animated fadeIn">
   <hr>
   <h2>News</h2>
+  <a class="new__btn test" href="https://www.poetrynw.org/james-welch-prize/" target="_blank">Finalist for the James Welch Prize</a>
+  <br>
+  <br>
   <a class="new__btn test" href="https://www.terrain.org/events/reading-march-2022/" target="_blank">Reading with Terrain.org</a>
   <br>
   <br>

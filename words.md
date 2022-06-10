@@ -31,6 +31,8 @@ height: 731
         <hr>
         <h2>Selected Poetry</h2>
         <ul class="fictionlinks">
+          <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(forthcoming&mdash;finalist for the James Welch Prize)</li>
+          <span class="hidebreak"><br></span>
           <li>For Damon <span class="dash">—</span><span class="hidebreak"><br></span> <em>ellipsis…literature and art</em></li>
           <span class="hidebreak"><br></span>
           <li>Another Morning <span class="dash">—</span><span class="hidebreak"><br></span> <em>Potomac Review</em></li>
