@@ -10,11 +10,11 @@ height: 731
 <div class="row">
 
   <div class="col-lg-4 col-md-4 content animated fadeIn">
+    <img src="{{ '/assets/img/forwebsite.jpg' | prepend: site.baseurl }}" class="img-fluid px-1 py-2" alt="Picture of Event">
     <img src="{{ '/assets/img/another-morning.jpg' | prepend: site.baseurl }}" class="img-fluid px-1 py-2" alt="Picture of Horse">
   </div>
 
   <div class="col-lg-8 col-md-8 animated fadeIn">
-
     <hr>
       <h2>Selected Fiction and Nonfiction</h2>
         <ul class="fictionlinks">
