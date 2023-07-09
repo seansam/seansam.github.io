@@ -15,7 +15,11 @@ height: 768
   <div class="col-lg-8 col-md-8 animated fadeIn">
   <hr>
   <h2>Contact Sean</h2>
-   <p>For general inquiries, please send an email to <a href="mailto:contact@seansam.com">contact@seansam.com</a>.</p>
+
+  <p>For general inquiries, please send an email to <a href="mailto:contact@seansam.com">contact@seansam.com</a>.</p>
+
+  <p>Open to representation.</p>
+  
   </div>
 
 </div>

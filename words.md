@@ -18,6 +18,7 @@ height: 731
     <hr>
       <h2>Selected Fiction and Nonfiction</h2>
         <ul class="fictionlinks">
+          <li>The Night Prairie <span class="dash">—</span><span class="hidebreak"><br></span> <em>Joyland</em> (forthcoming)</li>
           <li><a href="https://www.terrain.org/2022/fiction/the-frontier/" target="_blank">The Frontier</a> <span class="dash">—</span><span class="hidebreak"><br></span> <em>Terrain.org</em> (<a href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">12th Annual Fiction Contest winner)</a></li>
           <span class="hidebreak"><br></span>
           <li><a href="https://web.uvic.ca/malahat/excerpts/sam.html" target="_blank">Figure Balancing Over Rushing Water</a> <span class="dash">—</span><span class="hidebreak"><br></span> <em>The Malahat Review</em></li>
@@ -31,7 +32,7 @@ height: 731
         <hr>
         <h2>Selected Poetry</h2>
         <ul class="fictionlinks">
-          <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(forthcoming&mdash;finalist for the James Welch Prize)</li>
+          <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(finalist for the James Welch Prize)</li>
           <span class="hidebreak"><br></span>
           <li>For Damon <span class="dash">—</span><span class="hidebreak"><br></span> <em>ellipsis…literature and art</em></li>
           <span class="hidebreak"><br></span>
