@@ -15,6 +15,13 @@ height: 731
   <div class="col-lg-8 col-md-8 animated fadeIn">
   <hr>
   <h2>Updates</h2>
+
+  <p>Winner of the George Harmon Coxe Fiction Prize</p>
+
+ <a class="new__btn test" href="https://www.pw.org/agents_editors_recommend/sean_sam_of_128_lit" target="_blank">Feature on <em>Poets and Writers</em> (Agents & Editors Recommend)</a>
+  <br>
+  <br>
+
   <a class="new__btn test" href="https://joylandmagazine.com/fiction/the-night-prairie/" target="_blank">Fiction published in <em>Joyland</em></a>
   <br>
   <br>
