@@ -16,7 +16,9 @@ height: 731
   <hr>
   <h2>Updates</h2>
 
-  <p>Winner of the George Harmon Coxe Fiction Prize</p>
+ <a class="new__btn test" href="https://as.cornell.edu/about/student-awards#2023-24" target="_blank">Winner of the George Harmon Coxe Fiction Prize</a>
+  <br>
+  <br>
 
  <a class="new__btn test" href="https://www.pw.org/agents_editors_recommend/sean_sam_of_128_lit" target="_blank">Feature on <em>Poets and Writers</em> (Agents & Editors Recommend)</a>
   <br>
@@ -34,11 +36,15 @@ height: 731
   <a class="new__btn test" href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">Winner of <em>Terrain.org</em>'s 12th Annual Short Fiction Contest</a>
   <br>
   <br>
+  <!--
+
   <a class="new__btn test" href="https://www.zoetrope.com/contests/stories-2021/" target="_blank">Honorable mention in <em>Zoetrope: All Story</em>'s 2021 Short Fiction Competition</a>
 
-    <!-- <br>
   <br>
-  <a class="new__btn" href="https://www.ligeiamagazine.com/spring-2021/gina-nutt-interview/" target="_blank">Interview with Gina Nutt on her book, <em>Night Rooms</em></a> -->
+  <br>
+  <a class="new__btn" href="https://www.ligeiamagazine.com/spring-2021/gina-nutt-interview/" target="_blank">Interview with Gina Nutt on her book, <em>Night Rooms</em></a>
+  
+   -->
 
 
   </div>

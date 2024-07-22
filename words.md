@@ -33,6 +33,7 @@ height: 731
         <hr>
         <h2>Selected Poetry</h2>
         <ul class="fictionlinks">
+          <li>Letter from a Code Talker, 1945 <span class="dash">—</span><span class="hidebreak"><br></span> <em>Bellevue Literary Review </em>(forthcoming)</li>
           <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(finalist for the James Welch Prize)</li>
           <span class="hidebreak"><br></span>
           <li>For Damon <span class="dash">—</span><span class="hidebreak"><br></span> <em>ellipsis…literature and art</em></li>
@@ -44,9 +45,6 @@ height: 731
           <li>Tham Piu Cave <span class="dash">—</span><span class="hidebreak"><br></span> <em>RED Ink</em></li>
           <span class="hidebreak"><br></span>
           <li>Life Creating a Jumper <span class="dash">—</span><span class="hidebreak"><br></span> <em>Bird's Thumb</em></li>
-          <span class="hidebreak"><br></span>
-          <li>The Object in Art Disappears <span class="dash">—</span><span class="hidebreak"><br></span> <em>East Jasmine Review</em></li>
-
         </ul>
         <br />
         <br />
