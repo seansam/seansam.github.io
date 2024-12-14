@@ -16,7 +16,7 @@ height: 731
   <hr>
   <h2>About Sean</h2>
   
-  <p>Sean Sam is a member of the Navajo Nation and an MFA candidate at Cornell University, where he won the George Harmon Coxe Fiction Prize. His writing has appeared in <em>Joyland</em>, <em>Salt Hill</em>, <em>Potomac Review</em>, <em>The Malahat Review</em>, and elsewhere. He is the winner of <em>Terrain.org</em>’s 12th Annual Fiction contest, received an honorable mention in <em>Zoetrope: All-Story</em>’s Short Fiction Competition, and was a finalist for <em>Poetry Northwest</em>’s James Welch Prize. Sean has also taught at the Emerging Diné Writers’ Institute program to assist young Navajo writers. He is currently an instructor at Cornell University and working on his first novel.</p>
+  <p>Sean Sam is a member of the Navajo Nation and an MFA candidate at Cornell University, where he won the George Harmon Coxe Fiction Prize. His writing has appeared or is forthcoming in <em>Joyland</em>, <em>The Georgia Review</em>, <em>Salt Hill</em>, <em>Potomac Review</em>, <em>The Malahat Review</em>, and elsewhere. He is the winner of <em>Terrain.org</em>’s 12th Annual Fiction contest, received an honorable mention in <em>Zoetrope: All-Story</em>’s Short Fiction Competition, and was a finalist for <em>Poetry Northwest</em>’s James Welch Prize. Sean has also taught at the Emerging Diné Writers’ Institute program to assist young Navajo writers. He is currently an instructor at Cornell University and working on his first novel.</p>
   
   </div>
 

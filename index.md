@@ -16,6 +16,16 @@ height: 731
   <hr>
   <h2>Updates</h2>
 
+  <p>"Phantasmagoria" to be published in <em>The Georgia Review</em>.</p>
+
+   <a class="new__btn test" href="https://eastoverpress.com/book/the-eastover-anthology-of-rural-stories-by-writers-of-color-2024/" target="_blank">"The Frontier" reprinted in The EastOver Anthology of Rural Stories by Writers of Color, 2024</a>
+  <br>
+  <br>
+
+ <a class="new__btn test" href="https://www.tickettailor.com/events/bellevueliteraryreview/1401245" target="_blank">BLR Fall Reading/Interview with Saleem Hue Penny</a>
+  <br>
+  <br>
+
  <a class="new__btn test" href="https://as.cornell.edu/about/student-awards#2023-24" target="_blank">Winner of the George Harmon Coxe Fiction Prize</a>
   <br>
   <br>
@@ -27,16 +37,21 @@ height: 731
   <a class="new__btn test" href="https://joylandmagazine.com/fiction/the-night-prairie/" target="_blank">Fiction published in <em>Joyland</em></a>
   <br>
   <br>
-  <a class="new__btn test" href="https://www.poetrynw.org/james-welch-prize/" target="_blank">Finalist for the James Welch Prize</a>
-  <br>
-  <br>
-  <a class="new__btn test" href="https://www.terrain.org/events/reading-march-2022/" target="_blank">Reading with <em>Terrain.org</em></a>
-  <br>
-  <br>
+  
+  
   <a class="new__btn test" href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">Winner of <em>Terrain.org</em>'s 12th Annual Short Fiction Contest</a>
   <br>
   <br>
   <!--
+
+  <a class="new__btn test" href="https://www.terrain.org/events/reading-march-2022/" target="_blank">Reading with <em>Terrain.org</em></a>
+  <br>
+  <br>
+
+  <a class="new__btn test" href="https://www.poetrynw.org/james-welch-prize/" target="_blank">Finalist for the James Welch Prize</a>
+  <br>
+  <br>
+
 
   <a class="new__btn test" href="https://www.zoetrope.com/contests/stories-2021/" target="_blank">Honorable mention in <em>Zoetrope: All Story</em>'s 2021 Short Fiction Competition</a>
 

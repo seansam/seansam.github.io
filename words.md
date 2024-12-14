@@ -18,6 +18,8 @@ height: 731
     <hr>
       <h2>Selected Fiction and Nonfiction</h2>
         <ul class="fictionlinks">
+          <li>Phantasmagoria <span class="dash">—</span><span class="hidebreak"><br></span> <em>The Georgia Review</em> (forthcoming)</li>
+          <span class="hidebreak"><br></span>
           <li><a href="https://joylandmagazine.com/fiction/the-night-prairie/" target="_blank">The Night Prairie</a> <span class="dash">—</span><span class="hidebreak"><br></span> <em>Joyland</em></li>
           <span class="hidebreak"><br></span>
           <li><a href="https://www.terrain.org/2022/fiction/the-frontier/" target="_blank">The Frontier</a> <span class="dash">—</span><span class="hidebreak"><br></span> <em>Terrain.org</em> (<a href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">12th Annual Fiction Contest winner)</a></li>
@@ -33,7 +35,7 @@ height: 731
         <hr>
         <h2>Selected Poetry</h2>
         <ul class="fictionlinks">
-          <li>Letter from a Code Talker, 1945 <span class="dash">—</span><span class="hidebreak"><br></span> <em>Bellevue Literary Review </em>(forthcoming)</li>
+          <li><a href="https://blreview.org/poetry/letter-from-a-code-talker-1945/" target="_blank">Letter from a Code Talker, 1945</a> <span class="dash">—</span><span class="hidebreak"><br></span> <em>Bellevue Literary Review </em></li>
           <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(finalist for the James Welch Prize)</li>
           <span class="hidebreak"><br></span>
           <li>For Damon <span class="dash">—</span><span class="hidebreak"><br></span> <em>ellipsis…literature and art</em></li>
