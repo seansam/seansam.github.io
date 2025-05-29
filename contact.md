@@ -17,8 +17,6 @@ height: 768
   <h2>Contact Sean</h2>
 
   <p>For general inquiries, please send an email to <a href="mailto:contact@seansam.com">contact@seansam.com</a>.</p>
-
-  <p>Open to representation.</p>
   
   </div>
 
