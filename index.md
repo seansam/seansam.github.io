@@ -18,7 +18,7 @@ height: 731
 
   <p>"Phantasmagoria" to be published in <em>The Georgia Review</em>.</p>
 
-   <a class="new__btn test" href="https://eastoverpress.com/book/the-eastover-anthology-of-rural-stories-by-writers-of-color-2024/" target="_blank">"The Frontier" reprinted in The EastOver Anthology of Rural Stories by Writers of Color, 2024</a>
+   <a class="new__btn test" href="https://eastoverpress.com/book/the-eastover-anthology-of-rural-stories-by-writers-of-color-2024/" target="_blank">"The Frontier" reprinted in The EastOver Anthology of Rural Stories by Writers of Color</a>
   <br>
   <br>
 
