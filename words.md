@@ -34,6 +34,7 @@ height: 731
         <h2>Selected Poetry</h2>
         <ul class="fictionlinks">
           <li>Letter from a Code Talker, 1945 <span class="dash">—</span><span class="hidebreak"><br></span> <em>Bellevue Literary Review </em></li>
+          <span class="hidebreak"><br></span>
           <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(finalist for the James Welch Prize)</li>
           <span class="hidebreak"><br></span>
           <li>For Damon <span class="dash">—</span><span class="hidebreak"><br></span> <em>ellipsis…literature and art</em></li>
