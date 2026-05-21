@@ -18,7 +18,7 @@ height: 731
     <hr>
       <h2>Selected Fiction and Nonfiction</h2>
         <ul class="fictionlinks">
-          <li>Phantasmagoria <span class="dash">—</span><span class="hidebreak"><br></span> <em>The Georgia Review</em> (forthcoming)</li>
+          <li>Phantasmagoria <span class="dash">—</span><span class="hidebreak"><br></span> <em>The Georgia Review</em></li>
           <span class="hidebreak"><br></span>
           <li><a href="https://joylandmagazine.com/fiction/the-night-prairie/" target="_blank">The Night Prairie</a> <span class="dash">—</span><span class="hidebreak"><br></span> <em>Joyland</em></li>
           <span class="hidebreak"><br></span>
@@ -33,6 +33,9 @@ height: 731
         <hr>
         <h2>Selected Poetry</h2>
         <ul class="fictionlinks">
+
+  <li>The Face in the Rock <span class="dash">—</span><span class="hidebreak"><br></span> <em>Cimarron Review</em> (forthcoming)</li>
+          <span class="hidebreak"><br></span>
           <li>Letter from a Code Talker, 1945 <span class="dash">—</span><span class="hidebreak"><br></span> <em>Bellevue Literary Review </em></li>
           <span class="hidebreak"><br></span>
           <li>Wastelanding <span class="dash">—</span><span class="hidebreak"><br></span> <em>Poetry Northwest </em>(finalist for the James Welch Prize)</li>
