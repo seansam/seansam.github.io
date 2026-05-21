@@ -42,7 +42,7 @@ height: 731
  <a class="new__btn test" href="https://www.pw.org/agents_editors_recommend/sean_sam_of_128_lit" target="_blank">Feature on <em>Poets and Writers</em> (Agents & Editors Recommend)</a>
   <br>
   <br>
-
+  <!--
   <a class="new__btn test" href="https://joylandmagazine.com/fiction/the-night-prairie/" target="_blank">Fiction published in <em>Joyland</em></a>
   <br>
   <br>
@@ -51,7 +51,7 @@ height: 731
   <a class="new__btn test" href="https://www.terrain.org/2021/news/12th-annual-contest-winners/" target="_blank">Winner of <em>Terrain.org</em>'s 12th Annual Short Fiction Contest</a>
   <br>
   <br>
-  <!--
+
 
   <a class="new__btn test" href="https://www.terrain.org/events/reading-march-2022/" target="_blank">Reading with <em>Terrain.org</em></a>
   <br>
