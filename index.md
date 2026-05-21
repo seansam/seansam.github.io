@@ -16,7 +16,16 @@ height: 731
   <hr>
   <h2>Updates</h2>
 
-  <p>"Phantasmagoria" to be published in <em>The Georgia Review</em>.</p>
+  <a class="new__btn test" href="https://asme.memberclicks.net/national-magazine-awards-2026-nominations-announced" target="_blank">
+"Phantasmagoria," included in the <em>The Georgia Review</em>'s finalist package for the ASME Award for Fiction, National Magazine Awards</a>
+
+  <br>
+  <br>
+
+  <a class="new__btn test" href="https://www.thegeorgiareview.com/shop/issues/winter-2025/" target="_blank">"Phantasmagoria" published in <em>The Georgia Review</em>'s Winter 2025 issue</a>
+  
+  <br>
+  <br>
 
    <a class="new__btn test" href="https://eastoverpress.com/book/the-eastover-anthology-of-rural-stories-by-writers-of-color-2024/" target="_blank">"The Frontier" reprinted in The EastOver Anthology of Rural Stories by Writers of Color</a>
   <br>
