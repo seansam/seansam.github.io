@@ -20,7 +20,8 @@ height: 731
  <a class="new__btn test" href="https://www.nyfa.org/news/2026-nysca-nyfa-artist-fellowship-program-recipients-and-finalists-announced/" target="_blank">
 Awarded a NYSCA/NYFA Artist Fellowship in Nonfiction Literature, New York Foundation for the Arts</a>
 
-
+  <br>
+  <br>
   
 
   <a class="new__btn test" href="https://asme.memberclicks.net/national-magazine-awards-2026-nominations-announced" target="_blank">
