@@ -9,7 +9,7 @@ height: 731
 <div class="row">
 
   <div class="col-lg-4 col-md-4 content animated fadeIn">
-    <img src="{{ '/assets/img/sean-portrait-1.jpg' | prepend: site.baseurl }}" class="img-fluid px-1 py-2" alt="Picture of Horse">
+    <img src="{{ '/assets/img/sean-portrait-1.jpg' | prepend: site.baseurl }}" class="img-fluid px-1 py-2" alt="Picture of Sean">
   </div>
 
   <div class="col-lg-8 col-md-8 animated fadeIn">
@@ -18,7 +18,7 @@ height: 731
     
 <p>Sean Sam is a lecturer at Cornell University, where he won the George Harmon Coxe Fiction Prize. His writing has appeared in <em>Joyland</em>, <em>The Georgia Review</em>, <em>Salt Hill</em>, <em>Potomac Review</em>, <em>The Malahat Review</em>, and elsewhere. In 2026, he was awarded a NYSCA/NYFA Artist Fellowship in nonfiction. He is the winner of <em>Terrain.org</em>’s 12th Annual Fiction contest, received an honorable mention in <em>Zoetrope: All-Story</em>’s Short Fiction Competition, and was a finalist for <em>Poetry Northwest</em>’s James Welch Prize.</p>
 
-<p>He is a member of the Navajo Nation and currently at work on a novel</p>
+<p>He is a member of the Navajo Nation and currently at work on a novel.</p>
 
   </div>
 
