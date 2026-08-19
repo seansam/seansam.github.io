@@ -18,7 +18,7 @@ height: 731
     
 <p>Sean Sam is a lecturer at Cornell University, where he won the George Harmon Coxe Fiction Prize. His writing has appeared in <em>Joyland</em>, <em>The Georgia Review</em>, <em>Salt Hill</em>, <em>Potomac Review</em>, <em>The Malahat Review</em>, and elsewhere. In 2026, he was awarded a NYSCA/NYFA Artist Fellowship in nonfiction. He is the winner of <em>Terrain.org</em>’s 12th Annual Fiction contest, received an honorable mention in <em>Zoetrope: All-Story</em>’s Short Fiction Competition, and was a finalist for <em>Poetry Northwest</em>’s James Welch Prize.</p>
 
-<p>He is a member of the Navajo Nation and currently at work on a novel.</p>
+<p>He is a member of the Navajo Nation and is currently at work on a novel.</p>
 
   </div>
 
